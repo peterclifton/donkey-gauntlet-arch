@@ -4,7 +4,7 @@ pkgver=1.0.0
 pkgrel=1
 pkgdesc="A simple Python/Pygame game inspired by Donkey.bas"
 arch=('any')
-url="https://github.com/peterclifton/donkey-gauntlet.git"
+url="https://github.com/peterclifton/donkey-gauntlet"
 license=('GPL-3.0-or-later')
 depends=(
 'python'
