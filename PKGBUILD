@@ -17,7 +17,8 @@ sha256sums=('SKIP')  # For git sources, set to 'SKIP'
 pkgver() {
     cd "$srcdir/donkey-gauntlet"
     # Optional: use latest tag or commit hash as version
-    printf "%s" "$(git describe --tags --always)"
+    printf "%s" "$(git describe --tags --always | sed 's/^v//; s/[-:/]/./g; s/[^0-9A-Za-z_.+]//g')"
+
 }
 
 build() {
