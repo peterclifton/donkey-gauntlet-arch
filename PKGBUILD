@@ -1,5 +1,5 @@
 # Maintainer: Peter Clifton peterclifton.j@gmail.com
-pkgname=donkey-gauntlet
+pkgname=donkey-gauntlet-git
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A simple Python/Pygame game inspired by Donkey.bas"
