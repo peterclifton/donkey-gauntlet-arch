@@ -1,4 +1,4 @@
-# Maintainer: Peter Clifton
+# Maintainer: Peter Clifton peterclifton.j@gmail.com
 pkgname=donkey-gauntlet
 pkgver=1.0.0
 pkgrel=1
